@@ -3,13 +3,15 @@
   background-color: #2f303a;
 }
 .footer {
-  display: flex;
   @media screen and (min-width: 480px) {
     display: block;
   }
   @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
   }
   @media screen and (min-width: 1200px) {
+    display: flex;
   }
 }
 
@@ -21,16 +23,21 @@
   letter-spacing: 0.03em;
   margin-top: 0;
   margin-bottom: 20px;
+
   @media screen and (min-width: 480px) {
-    text-align: center;
+    margin: 20px 155px;
   }
   @media screen and (min-width: 768px) {
+    margin: 0;
+    margin-left: 100px;
   }
   @media screen and (min-width: 1200px) {
+    margin: 5px 0 0 15px;
   }
 }
 
 .address {
+  width: 232px;
   color: var(--primery-gb-color);
   font-style: normal;
   font-weight: normal;
@@ -41,8 +48,10 @@
     text-align: center;
   }
   @media screen and (min-width: 768px) {
+    margin-left: 61px;
   }
   @media screen and (min-width: 1200px) {
+    margin-left: 5px;
   }
 }
 
@@ -55,6 +64,7 @@
 }
 .footer-relations li {
   list-style: none;
+  width: 232px;
 }
 
 .footer-relations {
@@ -65,8 +75,10 @@
     margin-bottom: 60px;
   }
   @media screen and (min-width: 768px) {
+    margin-left: 60px;
   }
   @media screen and (min-width: 1200px) {
+    margin-left: 0;
   }
 }
 
@@ -78,6 +90,9 @@
     margin: 0;
   }
   @media screen and (min-width: 768px) {
+    width: 206px;
+    margin-left: 70px;
+    margin-top: 6px;
   }
   @media screen and (min-width: 1200px) {
   }
@@ -101,6 +116,7 @@
   @media screen and (min-width: 768px) {
   }
   @media screen and (min-width: 1200px) {
+    margin-left: 0;
   }
 }
 
@@ -139,19 +155,19 @@
 }
 
 .subscribe {
-  margin-top: 12px;
-  margin-left: 93px;
   @media screen and (min-width: 480px) {
     margin: 0 auto;
   }
   @media screen and (min-width: 768px) {
   }
   @media screen and (min-width: 1200px) {
+    margin-top: 6px;
+    margin-left: 83px;
+    margin-right: 0;
   }
 }
 
 .subsctibe-form {
-  display: flex;
   @media screen and (min-width: 480px) {
     display: block;
     text-align: center;
@@ -159,6 +175,7 @@
   @media screen and (min-width: 768px) {
   }
   @media screen and (min-width: 1200px) {
+    display: flex;
   }
 }
 
@@ -188,8 +205,10 @@
     margin-bottom: 20px;
   }
   @media screen and (min-width: 768px) {
+    width: 450px;
   }
   @media screen and (min-width: 1200px) {
+    width: 358px;
   }
 }
 
@@ -216,6 +235,7 @@
   @media screen and (min-width: 768px) {
   }
   @media screen and (min-width: 1200px) {
+    margin: 36px 0 0 12px;
   }
 }
 
